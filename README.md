@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Portfolio project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is based on React, it displays all of Yash's achievements along with the projects he has successfully worked on. Additionally, it houses his feature that allows you to send an SMS from this webpage to any US phone number (currently in Development). It also includes a contact page for anyone looking to get in touch with him.
+
+#### Write to Yash: yash.bhambhani96@gmail.com
 
 ## Available Scripts
 
