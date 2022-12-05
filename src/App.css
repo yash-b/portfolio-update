@@ -1,0 +1,14 @@
+.sidenav {
+    font-family: 'Courier New', Courier, monospace;
+    background: #2F4F4F !important;
+}
+
+.page {
+    font-size: 5rem;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+}
+
+.html {
+    background-color: antiquewhite;
+}
