@@ -41,7 +41,7 @@ function ResumeSideNav() {
                     <NavIcon>
                         <i className='fa fa-solid fa-at' style={{ fontSize: '1.5em' }} />
                     </NavIcon>
-                    <NavText>Contacts Us</NavText>
+                    <NavText>Contacts Me</NavText>
                 </NavItem>
             </SideNav.Nav>
         </SideNav>

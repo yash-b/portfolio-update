@@ -1,7 +1,23 @@
-.page-title {
+.title-name {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5em;
     color: #2f4f4f;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+}
+
+body, html {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+.root {
+    background-color: antiquewhite;
 }

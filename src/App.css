@@ -9,6 +9,15 @@
     /* background-color: blanchedalmond; */
 }
 
-.html {
+body, html {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+.root {
     background-color: antiquewhite;
 }

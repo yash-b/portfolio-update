@@ -3,7 +3,7 @@ import './stylesheets/home.css';
 
 export default function Home() {
   return (
-    <div className='container page-title'>Hi, I am <strong>Yash!</strong>
+    <div className='container title-name'>Hi, I am <strong>Yash!</strong>
       <div className='row'> 
         <div className='row'>
           <div className='row'>
