@@ -2,15 +2,15 @@
 
 # Yash Bhambhani Portfolio
 
-Portfolio I have been working on and off. Ideas:
+Portfolio I have been working on and off. Things it will include:
 - Dev projects
 - Integration projects
 - Graphic Design projects
 - SMS App using React cards and Trumpia API
 - Contact me functionality
-- Good aesthetic
+- Good aesthetics
 
-Everything from scratch
+Everything from scratch; re-learn React & CSS.
 
 ## Available Scripts
 
