@@ -5,7 +5,6 @@ body, html {
 }
 .App {
   display: flex;
-  /* width: 0px; */
 }
 main {
   padding-left: 25px;
