@@ -1,35 +1,37 @@
 .sidenav {
-    width: 250px;
+    width: 200px;
     transition: width 0.3s ease-in-out;
     height: 100vh;
-    background-color: #2F4F4F !important;
-    padding-top: 28px;
+    background-color: rgb(10,25,41);
+    padding-top: 5px;
 }
 .sidenavClosed {
     composes: sidenav;
     transition: width 0.3s ease-in-out;
-    width: 60px;
+    width: 60px
 }
 .sideitem {
     display: flex;
     align-items: center;
     padding: 10px 20px;
     cursor: pointer;
-    color: bisque;
+    color: #B2BAC2;
     text-decoration: none;
     overflow: hidden;
 }
 .linkText {
     padding-left: 16px;
 }
+
 .sideitem:hover {
-    background-color: #577575;
+    background-color: #244f7d1c;
+
 }
-.btn {
+.menuBtn {
     align-self: center;
-    align-self: flex-start;
+    align-self: flex-start;  
     justify-self: flex-end;
-    color: bisque;
+    color: #B2BAC2;
     background-color: transparent;
     border: none;
     cursor: pointer;

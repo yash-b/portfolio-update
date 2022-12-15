@@ -1,6 +1,6 @@
 import CottageTwoToneIcon from '@mui/icons-material/CottageTwoTone';
 import FolderCopyTwoToneIcon from '@mui/icons-material/FolderCopyTwoTone';
-import ThumbUpAltTwoToneIcon from '@mui/icons-material/ThumbUpAltTwoTone';
+import BatchPredictionTwoToneIcon from '@mui/icons-material/BatchPredictionTwoTone';
 import MessageTwoToneIcon from '@mui/icons-material/MessageTwoTone';
 import AlternateEmailTwoToneIcon from '@mui/icons-material/AlternateEmailTwoTone';
 
@@ -14,25 +14,25 @@ export const pageData = [
     {
         id: 1,
         icon: <FolderCopyTwoToneIcon/>,
-        text:'Home',
-        link: '/'
+        text:'Projects',
+        link: '/projects'
     },
     {
         id: 2,
-        icon: <ThumbUpAltTwoToneIcon/>,
-        text:'Home',
-        link: '/'
+        icon: <BatchPredictionTwoToneIcon/>,
+        text:'Skills',
+        link: '/skills'
     },
     {
         id: 3,
         icon: <MessageTwoToneIcon/>,
-        text:'Home',
-        link: '/'
+        text:'SMS App',
+        link: '/smsapp'
     },
     {
         id: 4,
         icon: <AlternateEmailTwoToneIcon/>,
-        text:'Home',
-        link: '/'
+        text:'Contact Me',
+        link: '/contact'
     }
 ]
