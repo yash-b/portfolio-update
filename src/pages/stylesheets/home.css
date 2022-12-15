@@ -9,6 +9,14 @@
     background-color: antiquewhite;
 }
 
+.my-image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+
 body, html {
     margin: 0;
     width: 100%;
