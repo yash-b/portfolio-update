@@ -1,7 +1,5 @@
 # Yash Bhambhani Portfolio
 
-# Yash Bhambhani Portfolio
-
 Portfolio I have been working on and off. Things it will include:
 - Dev projects
 - Integration projects
