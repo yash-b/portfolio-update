@@ -16,12 +16,37 @@ const bull = (
 );
 
 export default function SMSCard() {
-    function handleSubmit(e) {
-      e.preventDefault();
-      const content = e.target[0].value;
-      const number = e.target[1].value;
+  async function put(url, data) {
+    const response = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+        'X-Apikey': ''
+      },
+      body: 
+        JSON.stringify(data)
+    });
+    const responseMessage = await response.json();
 
-      window.alert(number);
+    return responseMessage;
+  }  
+  
+  function sendSMS(e) {
+      e.preventDefault();
+      // window.alert('submitted')
+      const text = e.target[0].value;
+      const number = e.target[1].value;
+      const smsURL = `http://api.trumpia.com/rest/v1/username/sms`;
+      const data = {
+          'mobile_number': number,
+          'message': text
+      }
+        
+      put(smsURL, data)
+        .then(response => window.alert(response.json()))
+        .catch(err => console.error(err));
+      
     };
 
   return (
@@ -33,7 +58,7 @@ export default function SMSCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={sendSMS}>
             <TextField id="message" label="Message goes here.." variant="standard" />
             <TextField id="text-number" label="Number goes here.." variant="standard" />
             <br/><br/><Button type="submit" variant="contained" size="small">Send</Button>
